@@ -1,4 +1,3 @@
-import sys
 import ds3225
 from fastapi import FastAPI
 import RPi.GPIO as GPIO
