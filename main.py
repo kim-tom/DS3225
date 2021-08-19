@@ -22,5 +22,5 @@ def set_pos(pos: int):
 @app.get("/servo/")
 def get_pos():
    return {
-       "pos": Servo.pos
+       "deg": Servo.pos
    }
